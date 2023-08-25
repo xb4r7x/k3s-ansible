@@ -3,3 +3,5 @@
 !sample/
 !turing-cluster/
 !turing-cluster/*
+!turing-cluster/group_vars/
+!turing-cluster/group_vars/*
