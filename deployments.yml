@@ -1,0 +1,10 @@
+---
+
+- hosts: master
+  gather_facts: yes
+  become: yes
+  roles:
+    - role: packages
+    - role: deployments/vault
+  environment:
+    KUBECONFIG: /etc/rancher/k3s/k3s.yaml
